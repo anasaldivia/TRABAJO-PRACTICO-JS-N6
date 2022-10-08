@@ -1,0 +1,49 @@
+.p{
+    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-18.png);
+    
+    background-size: 50rem;
+    background-attachment: fixed;
+
+}
+.encabezado{
+    background-color: rgb(33, 33, 132);
+    width: 100%;
+	position: fixed;
+    left: 0;
+	top: 0px;
+    right: 0px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+}
+
+h2{
+    font-family: 'Liberation Serif';
+    font-size: 20px;
+    color: black;
+}
+
+h3{
+    font-size: 12px;
+}
+
+#i{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    bottom: 30px;
+   position:absolute;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../FUENTES/LiberationSerif-Regular.ttf');
+    font-style: normal;
+}
